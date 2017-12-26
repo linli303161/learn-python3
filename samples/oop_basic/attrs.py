@@ -10,7 +10,7 @@ class MyObject(object):
         return self.x * self.x
 
 obj = MyObject()
-
+print(type(MyObject))
 print('hasattr(obj, \'x\') =', hasattr(obj, 'x')) # 有属性'x'吗？
 print('hasattr(obj, \'y\') =', hasattr(obj, 'y')) # 有属性'y'吗？
 setattr(obj, 'y', 19) # 设置一个属性'y'
