@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 class Dict(dict):
     '''
     Simple dict but also support access as x.y style.
